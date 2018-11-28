@@ -1,0 +1,14 @@
+注意：Apache的JBT项目是基于eclipse RCP开发，但现在大多数程序员用的idea，故在此使用idea！！！
+
+初始化Actions和Conditions步骤：
+
+1.定义行为树中会用到的ActionSet,SensorSet,EntitySet以及GoalSet； 示例：Domain.xml
+
+2.定义详细的行为以及逻辑节点信息；示例：ActionsAndConditions;
+
+3.定义运行ActionsAndConditionsGenerator类是生成的ModelAction,ModelCondtion,ExecutionAction以及ExecutionCondtion的文件目录；
+
+4.最重要的一点，在运行的地方点开Edit Configuration，在 program arguments栏添加配置；作用是初始化ActionsAndConditionsGenerator中的配置文件的路径方便读取；
+ActionsAndConditionsGenerator -c D:\wuwenxiangworkspace\JavaBehaviorTree\src\main\resources\Configuration.xml -o
+
+5.运行代码；即可发现配置文件中配置的文件输出目录下面有初始化出的代码。

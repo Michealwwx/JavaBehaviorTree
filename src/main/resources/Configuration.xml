@@ -1,0 +1,11 @@
+<Configuration>
+	<DomainFile>src/main/resources/Domain.xml</DomainFile>
+	<ModelActionsPackage>com.ruizhan.ModelActions</ModelActionsPackage>
+	<ModelConditionsPackage>com.ruizhan.ModelConditions</ModelConditionsPackage>
+	<ModelActionsOutputDirectory>src/main/java/com/ruizhan/ModelActions</ModelActionsOutputDirectory>
+	<ModelConditionsOutputDirectory>src/main/java/com/ruizhan/ModelConditions</ModelConditionsOutputDirectory>
+	<ExecutionActionsPackage>com.ruizhan.ExecutionActions</ExecutionActionsPackage>
+	<ExecutionConditionsPackage>com.ruizhan.ExecutionConditions</ExecutionConditionsPackage>
+	<ExecutionActionsOutputDirectory>src/main/java/com/ruizhan/ExecutionActions</ExecutionActionsOutputDirectory>
+	<ExecutionConditionsOutputDirectory>src/main/java/com/ruizhan/ExecutionConditions</ExecutionConditionsOutputDirectory>
+</Configuration>
