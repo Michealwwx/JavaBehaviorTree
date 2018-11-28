@@ -2,123 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f2f211d-51ce-416a-97fc-34a22c633f5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBehaviorTree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jargs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jdom.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/mmpm.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/sourceformatter.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ExecutionActions/Attack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ExecutionActions/AttackMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ExecutionActions/ComputeCharacterPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ExecutionActions/ComputeClosestBasePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ExecutionActions/ComputeRandomClosePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ExecutionActions/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ExecutionConditions/HighDanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ExecutionConditions/LowDanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ModelActions/Attack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ModelActions/AttackMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ModelActions/ComputeCharacterPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ModelActions/ComputeClosestBasePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ModelActions/ComputeRandomClosePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ModelActions/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ModelConditions/HighDanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruizhan/ModelConditions/LowDanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/exception/IllegalReturnStatusException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/exception/NotTickableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/exception/SpawnException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/exception/TickException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/context/BasicContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/context/GenericBTLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/context/HierarchicalContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/context/SafeContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/context/SafeOutputContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/BTExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/BTExecutorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/BTLibraryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/ContextFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/ExecutionTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/IBTExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/IBTLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/IContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/ITaskState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/TaskState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/TaskStateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/event/ITaskListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/core/event/TaskEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/composite/ExecutionComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/composite/ExecutionDynamicPriorityList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/composite/ExecutionParallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/composite/ExecutionRandomSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/composite/ExecutionRandomSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/composite/ExecutionSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/composite/ExecutionSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/composite/ExecutionStaticPriorityList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionHierarchicalContextManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionInterrupter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionInverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionRepeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionSafeContextManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionSafeOutputContextManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionSucceeder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/decorator/ExecutionUntilFail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/ExecutionFailure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/ExecutionLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/ExecutionPerformInterruption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/ExecutionSubtreeLookup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/ExecutionSuccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/ExecutionVariableRenamer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/ExecutionWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/action/ExecutionAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/execution/task/leaf/condition/ExecutionCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/core/ModelTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/composite/ModelComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/composite/ModelDynamicPriorityList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/composite/ModelParallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/composite/ModelRandomSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/composite/ModelRandomSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/composite/ModelSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/composite/ModelSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/composite/ModelStaticPriorityList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelHierarchicalContextManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelInterrupter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelInverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelRepeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelSafeContextManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelSafeOutputContextManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelSucceeder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/decorator/ModelUntilFail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/ModelFailure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/ModelLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/ModelPerformInterruption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/ModelSubtreeLookup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/ModelSuccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/ModelVariableRenamer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/ModelWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/action/ModelAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/model/task/leaf/condition/ModelCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt/util/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/ActionsAndConditionsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/BTLibraryGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/librarygenerator/BTLibraryGenerationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/librarygenerator/BTLibraryGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/lowlevelgenerator/ActionsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/lowlevelgenerator/CommonCodeGenerationUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/lowlevelgenerator/ConditionsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/modelbtgenerator/ModelBTGenerationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/modelbtgenerator/ModelBTGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jbt_generator/util/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ActionsAndConditions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Configuration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Domain.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Path_Finding_BFS/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Path_Finding_BFS/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Path_Finding_BFS/.idea/workspace.xml" afterDir="false" />
@@ -179,13 +62,14 @@
         <counts>
           <entry key="java" value="49" />
           <entry key="note" value="485" />
+          <entry key="txt" value="36" />
           <entry key="xml" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="49" />
-          <entry key="PLAIN_TEXT" value="485" />
+          <entry key="PLAIN_TEXT" value="521" />
           <entry key="XML" value="271" />
         </counts>
       </usages-collector>
@@ -278,8 +162,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="219" />
-    <option name="y" value="44" />
+    <option name="x" value="144" />
+    <option name="y" value="35" />
     <option name="width" value="1341" />
     <option name="height" value="706" />
   </component>
@@ -297,6 +181,41 @@
               <item name="JavaBehaviorTree" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBehaviorTree" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaBehaviorTree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBehaviorTree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBehaviorTree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBehaviorTree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBehaviorTree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBehaviorTree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBehaviorTree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBehaviorTree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruizhan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBehaviorTree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBehaviorTree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruizhan" type="462c0819:PsiDirectoryNode" />
+              <item name="ExecutionActions" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -307,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543400223988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543400333139" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -387,15 +306,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543390977753</updated>
-      <workItem from="1543390984089" duration="8641000" />
+      <workItem from="1543390984089" duration="8968000" />
     </task>
+    <task id="LOCAL-00001" summary="通过配置自动生成行为树的控制节点和行为节点">
+      <created>1543400212374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543400212374</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8641000" />
+    <option name="totallyTimeSpent" value="8968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="18" width="1341" height="706" extended-state="0" />
+    <frame x="144" y="35" width="1341" height="706" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -462,6 +389,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="通过配置自动生成行为树的控制节点和行为节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="通过配置自动生成行为树的控制节点和行为节点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
